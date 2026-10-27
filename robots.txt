@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nocodya-hue.github.io/jags-reformas/sitemap.xml
