@@ -290,6 +290,8 @@ body.menu-abierto .cab__logo--blanco { display: block; } body.menu-abierto .cab_
   .obra__txt > p:not(.eti):not(.obra__lugar) { font-size: 15.5px; }
   .cinta { height: 38px; margin-top: 12px; }
 }
+/* la tira solo cabe al lado de los botones en pantallas anchas; si no, va debajo */
+@media (max-width: 1320px) { .hero__tira { margin-top: 0; justify-content: flex-start; } }
 @media (max-width: 760px) {
   .hero__tira { justify-content: flex-start; overflow-x: auto; margin-top: 0; scrollbar-width: none; }
   .hero__tira::-webkit-scrollbar { display: none; }
